@@ -8,5 +8,11 @@
 
 int main()
 {
+    int num;
+    printf("Введіть число: ");
+    scanf("%i", &num);
+
+    printf("\nРезультат: %s\n\n", GetNumberName(num));
+
     return 0;
 }
